@@ -11,7 +11,7 @@ html, body {
 }
 
 .container {
-    max-width: 250px;
+    max-width: 300px;
     margin: auto;
     display: grid;
     justify-content: center;
@@ -38,6 +38,12 @@ html, body {
 .title {
     font-size: 20px;
     font-weight: 800;
+}
+
+.title:hover {
+    cursor: pointer;
+    color: hsl(47, 88%, 63%);
+    transition: 0.3s;
 }
 
 .text-label {
@@ -70,6 +76,10 @@ html, body {
     font-weight: 800;
     padding-left: 10px;
     font-size: 14px;
+}
+
+.name-artist:hover, .artist-icon:hover {
+    cursor: pointer;
 }
 
 
